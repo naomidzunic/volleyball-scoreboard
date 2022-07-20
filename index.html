@@ -7,21 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
 
+    <!-- CSS -->
+
+
     <link rel="stylesheet" href="index.css">
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
-    <h1>People entered</h1>
-    <h2 id="count-el">0</h2>
-<div class="buttons">
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-</div>
-    <p id="save-el">Previous entries: </p>
+    <div class="container">
+        <h1>People entered</h1>
+        <h2 id="count-el">0</h2>
+        <div class="buttons">
+            <button id="increment-btn" onclick="increment()">ADD</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+        <p id="save-el">Saved entries: </p>
 
-</div>
+    </div>
 
     <script src="index.js"></script>
 </body>

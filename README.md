@@ -21,6 +21,9 @@ Project based on the counter builder from Scrimba. The course covered basic JS o
 
 For this process I went through the lesson on buidling the counter and then deleted everything and rebuilt it with just using the notes that I've created (see below). And to make it an extra challenge I decided to use my CSS skills to customize it and make it a little nicer and responsive.
 
+JULY 20, 2022 - As of this date stamp the customizations for responsiveness aren't complete quite yet.
+
+
 ### Built with
 
 - Semantic HTML5 markup
