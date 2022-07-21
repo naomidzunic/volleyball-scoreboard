@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
-    background-image: linear-gradient(to right,#0F2027, #203A43);
-    background-size: cover;
+    background-image: linear-gradient(to right,#02AAB0, #00CDAC);
     font-family: 'Inter', sans-serif;
     text-align: center;
-    height: 45vh;
 }
 
 h1 {
@@ -20,16 +25,25 @@ h2 {
 
 p {
     font-weight: 600;
+    padding-top: 1rem;
 }
 
 
 
 .container {
+    padding: 40% 0;
+}
+
+.box {
     background-color: #EFEFEF;
-    width: 50%;
-    margin: 22% auto;
+    width: 18.75rem;
+    margin: 0 auto;
+    padding: 15%;
     border-radius: 10px;
-    padding: 2rem;
+}
+
+.buttons {
+border: 2px solid red;
 }
 
 
@@ -38,8 +52,7 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-weight: bold;
-    width: 12.5rem;
+    width: 100%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -49,5 +62,35 @@ button {
 }
 
 #save-btn {
-    background: darkred;
+    background: #00CDAC;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        padding: 6rem 0 0 0;
+    }
+    
+    .box {
+        background-color: #EFEFEF;
+        width: 25rem;
+        margin: 6rem auto;
+        padding: 6%;
+        border-radius: 10px;
+    } 
+    
+    .buttons {
+    border: 2px solid red;
+    }
+    
+    button {
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+    
+   
 }

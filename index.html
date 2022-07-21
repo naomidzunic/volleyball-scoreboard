@@ -8,8 +8,6 @@
     <title>Counter</title>
 
     <!-- CSS -->
-
-
     <link rel="stylesheet" href="index.css">
 
     <!-- GOOGLE FONTS -->
@@ -22,14 +20,15 @@
 <body>
 
     <div class="container">
-        <h1>People entered</h1>
-        <h2 id="count-el">0</h2>
-        <div class="buttons">
-            <button id="increment-btn" onclick="increment()">ADD</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+        <div class="box">
+            <h1>People entered</h1>
+            <h2 id="count-el">0</h2>
+            <div class="buttons">
+                <button id="increment-btn" onclick="increment()">ADD</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="save-el">Saved entries: </p>
         </div>
-        <p id="save-el">Saved entries: </p>
-
     </div>
 
     <script src="index.js"></script>
