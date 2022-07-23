@@ -1,32 +1,67 @@
+//Isolate the scores for Home & Guest
+let homeEl = document.getElementById("home-el")
+let guestEl = document.getElementById("guest-el")
 
-// You are declaring what you want to isolate and changed from the DOM
-let countEl = document.getElementById("count-el")
+//Make sure that the scores change publicly for Home & Guest
 
-// Starting count
-let count = 0 
-
-// You're saying "Hey Javascript I want you to do something to "save-el". Remember this info because it will be important to how you're gonna do the task for me."
-
-let saveEl = document.getElementById("save-el")
+//Set a variable for the count to start at zero
+let count = 0
 
 
-// "Hey JS this is how I want you to do it exactly"
+function homeOne(){
+  count += 1
+  console.log(count)
+  document.getElementById("home-el").textContent = count
+}
 
-function increment() {
-    // The += is the same as saying count = (count +) 1
+function homeTwo(){
+    count += 2
+    console.log(count)
+    document.getElementById("home-el").textContent = count
+  }
+
+  function homeThree(){
+    count += 3
+    console.log(count)
+    document.getElementById("home-el").textContent = count
+  }
+
+  function guestOne(){
     count += 1
-    // You're telling JS to take the value of what's in countEl (this is what's in the text) and change it to the new value
-    countEl.textContent = count
+    console.log(count)
+    document.getElementById("guest-el").textContent = count
+  }
+  
+  function guestTwo(){
+      count += 2
+      console.log(count)
+      document.getElementById("guest-el").textContent = count
+    }
+  
+    function guestThree(){
+      count += 3
+      console.log(count)
+      document.getElementById("guest-el").textContent = count
+    }
+
+
+
+let recordScore = document.getElementById("record")
+let resetScore = document.getElementById("reset")
+
+
+function record() {
+    
 }
 
-// This function ensures you're saving the number you've logged.
 
 
-function save() {
-    let entries = count + " - "
-    saveEl.textContent += entries
-    // This ensures you're resetting back to zero
-    count = 0
-    countEl.textContent = 0
+function reset() {
+count = 0
+document.getElementById("home-el").textContent = count
+document.getElementById("guest-el").textContent = count
+
 }
+
+
 

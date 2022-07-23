@@ -21,13 +21,41 @@
 
     <div class="container">
         <div class="box">
-            <h1>People entered</h1>
-            <h2 id="count-el">0</h2>
-            <div class="buttons">
-                <button id="increment-btn" onclick="increment()">ADD</button>
-                <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="home">
+    
+                <h1>Home</h1>
+                <h2 id="home-el">0</h2>
+
+                <div class="buttons">
+
+                <button onclick="homeOne()">+1</button>
+                <button onclick="homeTwo()">+2</button>
+                <button onclick="homeThree()">+3</button>
+
+                </div>
+
             </div>
-            <p id="save-el">Saved entries: </p>
+
+            <div class="guest">
+            
+                <h1>Guest</h1>
+                <h2 id="guest-el">0</h2>
+            
+            
+                <div class="buttons">
+            
+                    <button onclick="guestOne()">+1</button>
+                    <button onclick="guestTwo()">+2</button>
+                    <button onclick="guestThree()">+3</button>
+            
+                </div>
+            </div>
+
+            <div class="btn-container">
+            <button id="record" onclick="record()">Record</button>
+            <button id="reset" onclick="reset()">Reset</button>
+            </div>
+
         </div>
     </div>
 
