@@ -10,6 +10,8 @@
 
 Project based on the counter builder from Scrimba. The course covered basic JS on creating a counter for people coming in and out of a train. 
 
+I redesigned the counter more as a score keeper for when I play volleyball and would prefer to keep track of scores. 
+
 
 ## My process
 
@@ -21,7 +23,7 @@ For this process I went through the lesson on buidling the counter and then dele
 - Semantic HTML5 markup
 - CSS custom properties
 - Vanilla Javascript
-- Mobile-first workflow (attempted)
+- Mobile-first workflow
 
 ### What I learned
 
@@ -29,3 +31,6 @@ With Javascript taking a bit to click I learned a few things that I've learned a
 
 I also learned that it's so important to console.log every step to ensure you're avoiding bugs, especially as I'm learning Javascript. I remember when I was first learning I wasn't doing it and was just getting more confused on what I did wrong but now after each line I do it as good practice but it makes the project a lot more manageable. 
 
+
+PICK UP WHERE YOU LEFT OFF: 
+- 07/23 Customizing Mobile responsiveness

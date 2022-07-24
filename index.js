@@ -51,7 +51,8 @@ let resetScore = document.getElementById("reset")
 
 
 function record() {
-    
+    //if home score is greater than guest score, then add 1
+    //if guest score is greater than home score, then add 1
 }
 
 
